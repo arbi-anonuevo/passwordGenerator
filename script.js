@@ -1,5 +1,9 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var numOfCharacters = prompt("How many characters would you like passwork to contain? Choose between 8 and 128.");
+var specialCharacter = confirm("Click OK to include special characters.");
+var numericCharacter = confirm("Click OK to include numeric characters.");
+
 
 // Write password to the #password input
 function writePassword() {
