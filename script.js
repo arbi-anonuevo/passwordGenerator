@@ -6,6 +6,8 @@ var numericCharacter = confirm("Click OK to include numeric characters.");
 var lowercaseCharacter = confirm("Click OK to include lowercase letters.");
 var uppercaseCharacter = confirm("Click OK to include uppercase letters.");
 
+function getRandomLower
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -17,3 +19,10 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+
+
+
+
+
